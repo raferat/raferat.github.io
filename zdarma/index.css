@@ -92,7 +92,7 @@ h1
 	color: white;
 	margin-top: 100px;
 	text-align: center;
-	
+	text-transform: uppercase;
 }
 
 h2
@@ -106,4 +106,59 @@ h2
 {
 	color: white;
 	text-align: center;
+}
+
+#uvod
+{
+	 padding-top: 10px;
+}
+
+#uvod p
+{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+}
+
+#cenik
+{
+	padding-top: 10px;
+}
+
+#cenik table
+{
+	background-color: #55d6aa;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#cenik th, td
+{
+	background-color: #222;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+}
+
+#cenik th
+{
+	padding: 0 20px;
+}
+
+#obraz1 img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+#obraz2 img
+{
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
 }
