@@ -7,6 +7,9 @@ body
 header 
 {
 	background: #55d6aa;
+	position: fixed;
+	top: 0px;
+	width: 100%;
 }
 
 header::after 
@@ -64,7 +67,7 @@ nav a::after
 	height: 5px;
 	width: 0%;
 	background-color: #444;
-	position: absolute;
+	position: relative;
 	transition: all ease-in-out 250ms;
 	
 }
@@ -87,18 +90,20 @@ nav a:hover::after
 h1
 {
 	color: white;
-	left: 50%;
-	position: fixed;
-	transform: translate(-50%);
+	margin-top: 100px;
+	text-align: center;
 	
 }
 
 h2
 {
 	color: white;
-	left: 50%;
-	top: 10%;
-	position: fixed;
-	transform: translate(-50%);
-	
+	margin-top: 20px;
+	text-align: center;
+}
+
+#raferat p
+{
+	color: white;
+	text-align: center;
 }
