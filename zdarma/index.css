@@ -162,3 +162,29 @@ h2
 	margin-right: auto;
 	width: 100%;
 }
+
+
+#kontakty
+{
+	background-color: #55d6aa;
+}
+
+#kontakty h1
+{
+	color: #444; 
+}
+
+#kontakty a
+{
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: #444;
+}
+
+#kontakty::after 
+{
+	content: '';
+	display: table;
+	clear: both;
+}
