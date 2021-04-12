@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="index.css"/> 
     <meta charset="UTF-8"/>
   </head>
-  <body onmousemove="moveCursor(event)">
+  <body onmousemove="moveCursor(event)" onmouseout="hideCursor()">
     <header>
       <div class="container">
         <div class="logo">
@@ -14,7 +14,7 @@
           <ul>
             <li><a href="#uvod">Úvod</a></li>
             <li><a href="#cenik">Ceník</a></li> 
-            <li><a href="#predmety">Předměty</a></li>
+            <li><a href="#raferaty">Raferáty</a></li>
             <li><a href="#faq">FAQ</a></li>
             <li><a href="#kontakty">Kontakty</a></li>
             <li><a href="#prihlaseni">Přihlášení</a></li>
@@ -67,14 +67,20 @@
     <div id="obraz2">
       <img src="penize-uzke.jpg"/>
     </div>
-    <div id="raferat">
+    <div id="raferaty">
+    <h1>Hotové raferáty</h1>
+    <h2>Zeměpis</h2>
+      <ul>
+        <li><a href="referat.pptx">Významná města Kanady</a></li>
+      </ul>
     </div>
     <div id="kontakty">
       <h1>Kontakty</h1>
       <a href="mailto:mailnaneduveryhodnestranky@seznam.cz">support@raferat.github.io</a>
       <p style="float: left; color: #444;">Copyright (c) 2021</p>
     </div>
-    <div class="cursor">
+    
+    <div class="cursor" id="cursor">
       <?xml version="1.0" encoding="utf-8"?>
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; display: block; shape-rendering: auto;" width="154px" height="154px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
         <g transform="rotate(0 50 50)">
@@ -308,5 +314,6 @@
         </g>
       </svg>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>

@@ -198,4 +198,36 @@ h2
 .cursor
 {
 	background: none;
+	display: none;
+	position: absolute;
+	pointer-events: none;
+	transform: translate(-50%, -50%);
+}
+
+#raferaty
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#raferaty ul
+{
+	list-style: none;
+}
+
+#raferaty li::before
+{
+	content: "\2022";
+    color: white;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+#raferaty a
+{
+	color: white;
 }
